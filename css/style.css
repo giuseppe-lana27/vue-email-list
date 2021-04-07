@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #FFEBCD;
+  font-family: 'RocknRoll One', cursive;
+}
+#app{
+  width: 800px;
+  margin: 20px auto;
+}
+.title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.emails-list{
+  list-style: none;
+  text-align: center;
+}
+.emails{
+  margin-top: 15px;
+  font-size: 20px;
+}
+.emails:hover{
+  cursor: pointer;
+  color: #4169E1;
+  transform: scale(1.2);
+}
